@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link href="style.css" rel='stylesheet'>
+</head>
+<body>
+    <div id='hand-container'>
+        <div class='hand'>
+          <h1 class ='label' id='player-label'>Your Hand</h1>
+          <img src='https://static.vecteezy.com/system/resources/previews/000/690/838/original/rock-paper-scissors-vector-illustration.jpg' id='playerImage'>
+          <p class='choice-label' id='player'></p>
+        </div>
+        
+        <div class='hand'>
+          <h1 class='label' id='opponent-label'>Opponent's Hand</h1>
+          <img src='https://static.vecteezy.com/system/resources/previews/000/690/838/original/rock-paper-scissors-vector-illustration.jpg' id='opponentImage'>
+          <p class='choice-label' id='opponent'></p>
+        </div>
+      </div>
+      
+      <div id='result'>Make your selection.</div>
+      
+      <div id='option-container'>
+        <div id='rock' class='option'>Rock</div>
+        <div id='paper' class='option'>Paper</div>
+        <div id='scissors' class='option'>Scissors</div>
+      </div>
+      
+      <button id='submit'>Shoot</button>
+      <button id='reset'>Play Again?</button>
+      <script src='script.js'></script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+body {
+    font-family: Helvetica;
+    text-align: center;
+  }
+  
+  .hand {
+    margin: 30px 30px 50px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  h1 {
+    color: #C7531C;
+  }
+  
+  .hand img {
+    width: 200px;
+    margin-top: 20px;
+  }
+  
+  .choice-label {
+    font-weight: bold;
+    visibility: hidden;
+  }
+  
+  #result {
+    margin: 40px;
+    font-size: 20px;
+  }
+  
+  .option {
+    display: inline-block;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px ridge skyblue;
+    border-radius: 15px;
+  }
+  
+  button {
+    margin-top: 30px;
+    height: 30px;
+    border: 2px ridge skyblue;
+    border-radius: 10px;
+    background-color: #C7531C;
+    color: white;
+  }
+  
+  #submit {
+    width: 80px;
+  }
+  
+  #reset {
+    display: none;
+  }
+  
+  @media (max-width: 500px) {
+    .hand {
+      margin: 10px auto;
+      width: 80%;
+      height: 30%;
+    }
+    
+    .hand img {
+      width: 50%;
+      margin-top: 10px;
+    }
+    
+    h1 {
+      margin: 0;
+      font-size: 25px;
+    }
+    
+    .option {
+      width: 60px;
+    }
+    
+    #result {
+      margin: 10px auto;
+    }
+  }
